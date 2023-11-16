@@ -1,0 +1,14 @@
+@mixin flexs($display,$align-item,$justify-content,$gaps){
+    display: $display;
+    align-items: $align-item;
+    justify-content: $justify-content;
+    gap: $gaps;
+}
+
+@mixin buttons($padding,$background,$color,$border,$border-radius){
+    padding: $padding;
+    background: $background;
+    color: $color;
+    border: $border;
+    border-radius: $border-radius;
+}

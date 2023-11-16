@@ -1,8 +1,14 @@
-import React from 'react';  
+import React from 'react'; 
+import Welcome from "./pages/Welcome";
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
-  <h1>kagabo</h1>
+         <Router>
+          <Routes>
+            <Route path='/' element={<Welcome/>}></Route>
+          </Routes>
+         </Router>
   );
 }
 

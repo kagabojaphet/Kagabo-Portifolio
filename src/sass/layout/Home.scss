@@ -1,0 +1,86 @@
+.home-container{
+    background: linear-gradient(-90deg,#031540 70%,white 30%);
+    @include flexs(flex,center,space-evenly,0rem);
+    width: 100%;
+    height: 84vh;
+    border-bottom: 2px solid $text-color;
+    .image{
+        @include flexs(flex,center,center,0rem);
+        width: 300px;
+        height: 300px;
+        background: $secondary-color;
+        position: relative;
+        border-radius: 50%;
+        border:5px solid $ternary-color;
+        outline: 10px solid $primary-color;
+        background: $primary-color;
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 3px solid $ternary-color;
+
+        }
+    }
+    .home-content{
+        max-width: 600px;
+        text-align: right;
+        color: $ternary-color;
+        padding: 2rem 6rem;
+        // background: white;
+        h1{
+            font-size: $fontsize-lg;
+            line-height: 1.5;
+        }
+        h3{
+            font-size: $fontsize-x-lg;
+            color: transparent;
+            -webkit-text-stroke: .8px $ternary-color;
+            background-image: linear-gradient(#00abf0,#00abf0);
+            background-repeat: no-repeat;
+            background-position: -410px 0;
+            -webkit-background-clip: text;
+            animation:animateText 6s linear infinite;
+            
+        }
+        p{
+            font-size: $fontsize-x-md;
+            padding: 2rem 0;
+        }
+        .home-icon{
+            a{
+                display: inline-block;
+                text-decoration: none;
+                margin: 0 .6rem;
+                gap: 3rem;
+                transition: .3s;
+                font-size: $fontsize-sm;
+                @include buttons(1.5rem,$primary-color,$secondary-color,2px solid $ternary-color,50%);
+                &:hover{
+                    background: $secondary-color;
+                    color: $ternary-color;
+                    border-color: $secondary-color;
+                    box-shadow: 0 0 4px $secondary-color;
+                }
+            }
+           
+        }
+        .btn-container{
+            padding: 4rem 0;
+            .btn{
+                @include buttons(1.4rem,$secondary-color,$primary-color,none,25px);
+                box-shadow: 0 0 5px #00abf0;
+                text-decoration: none;
+                color: $ternary-color;
+                font-size: $fontsize-sm;
+                font-weight: $fontweight-sm;
+                transition: .5s;
+                &:hover{
+                    @include buttons(1.4rem,$primary-color,$secondary-color,2px solid $ternary-color,25px);
+                }
+            }
+
+        }
+    }
+}

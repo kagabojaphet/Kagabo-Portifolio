@@ -1,0 +1,46 @@
+header{
+    @include flexs(flex,center,space-between,2rem);
+    background: linear-gradient(-90deg,#031540 70%,white 30%);
+    padding: 2rem 6rem;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    position: sticky;
+    .logo{
+        font-size: $fontsize-x-lg;
+        letter-spacing: .5rem;
+        color: $primary-color;
+        cursor: pointer;
+        transition: .3s;
+        &:hover{
+            transform: translate(3px,-3px);
+        }
+
+    }
+    .nav-links{
+        @include flexs(flex,center,space-between,3rem);
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-size: $fontsize-md;
+                font-weight: $fontweight-x-md;
+                color: $ternary-color;
+                transition: .3s;
+                &.active,:hover,:active{
+                    color: $secondary-color;
+                }
+            }
+        }
+        i{
+            font-size: $fontsize-lg;
+            color: $ternary-color;
+            transition: .3s;
+            &:hover{
+                color: $secondary-color;
+                cursor: pointer;
+            }
+        }
+    }
+}
