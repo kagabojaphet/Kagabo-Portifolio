@@ -4,6 +4,7 @@
     width: 100%;
     height: 84vh;
     border-bottom: 2px solid $text-color;
+    
     .image{
         @include flexs(flex,center,center,0rem);
         width: 300px;
