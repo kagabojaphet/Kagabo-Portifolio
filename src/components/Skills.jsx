@@ -50,7 +50,6 @@ const Skills=()=>{
                         <Progress type="circle" percent={95} />
                         <h3>FIGMA</h3>
                         </div>
-                    
                      </Space>
             </div>
         </div>

@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Home from "../components/Home";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import Blogs from "../components/Blog";
 const Welcome=()=>{
     return(
         <>
@@ -11,6 +12,7 @@ const Welcome=()=>{
         <Home/>
         <About/>
         <Skills/>
+        <Blogs/>
 
         </>
     )
