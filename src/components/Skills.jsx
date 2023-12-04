@@ -5,8 +5,8 @@ const Skills=()=>{
     return(
         <>
         <div className="skills-container">
-            <h1>SKILLS</h1>
             <div className="skills-left">
+            <h1>SKILLS</h1>
                 <div className="skills-image">
                     <img src="" alt="" />
                 </div>

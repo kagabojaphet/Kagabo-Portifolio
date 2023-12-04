@@ -23,6 +23,10 @@
             background-color: $primary-color;
             border: 5px solid $ternary-color;
             outline: 5px solid $primary-color;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
     }
     .blogs-right{

@@ -4,10 +4,10 @@ const About=()=>{
  return(
     <>
     <div className="about-container">
-    <h1>ABOUT</h1>
         <div className="about-left">
+        <h1>ABOUT</h1>
             <div className="about-image">
-                
+                <img src="" alt="" />
             </div>
         </div>
         <div className="about-right">
