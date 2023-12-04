@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from 'antd';
 
 const About=()=>{
  return(
@@ -7,7 +8,8 @@ const About=()=>{
         <div className="about-left">
         <h1>ABOUT</h1>
             <div className="about-image">
-                <img src="" alt="" />
+            <Image src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?" alt="" >
+                    </Image>
             </div>
         </div>
         <div className="about-right">

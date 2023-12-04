@@ -1,5 +1,6 @@
 import React from "react";
 import {Progress,Space} from "antd";
+import { Image } from 'antd';
 
 const Skills=()=>{
     return(
@@ -8,7 +9,9 @@ const Skills=()=>{
             <div className="skills-left">
             <h1>SKILLS</h1>
                 <div className="skills-image">
-                    <img src="" alt="" />
+                <Image src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?" alt="" >
+                    </Image>
+                    
                 </div>
             </div>
             <div className="skills-right">

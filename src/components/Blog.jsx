@@ -1,4 +1,5 @@
 import React from "react";
+import { Carousel } from 'antd';
 
 const Blogs=()=>{
     return(
@@ -7,7 +8,21 @@ const Blogs=()=>{
             <div className="blogs-left">
             <h1>BLOGS</h1>
                 <div className="blogs-image">
-                    <img src="" alt="" />
+                    <Carousel autoplay className="image">
+    <div>
+  
+      <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?" alt="" />
+    </div>
+    <div>
+      <img src="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?" alt="" />
+    </div>
+    <div>
+      <img src="https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?" alt="" />
+    </div>
+    <div>
+      <img src="https://images.pexels.com/photos/1181275/pexels-photo-1181275.jpeg?" alt="" />
+    </div>
+  </Carousel>
                 </div>
             </div>
             <div className="blogs-right">
