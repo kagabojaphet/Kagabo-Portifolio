@@ -35,19 +35,19 @@ const Blogs=()=>{
                             <img src='https://images.pexels.com/photos/21627/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' alt="" />
                             <h3>Nyabike</h3>
                             <h5>Lorem ipsum dolor sit amet consectetur </h5>
-                            <a href="">more</a> 
+                            <a href="@">more</a> 
                         </div>
                         <div className="blog-news">
                             <img src='https://images.pexels.com/photos/21627/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' alt="" />
                             <h3>Nyabike</h3>
                             <h5>Lorem ipsum dolor sit amet consectetur </h5>
-                            <a href="">more</a> 
+                            <a href="@">more</a> 
                         </div>
                         <div className="blog-news">
                             <img src='https://images.pexels.com/photos/21627/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' alt="" />
                             <h3>Nyabike</h3>
                             <h5>Lorem ipsum dolor sit amet consectetur </h5>
-                            <a href="">more</a> 
+                            <a href="@">more</a> 
                         </div>
                     </div>
  
