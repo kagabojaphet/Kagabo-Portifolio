@@ -23,13 +23,13 @@ const About=()=>{
                 tempore nemo accusantium, dolorem ad id eius placeat optio 
                 eligendi quibusdam, numquam fugit?</p>
                 <div className="home-icon">
-                    <a href=""><i className='bx bxl-facebook'></i></a>
-                    <a href=""><i className='bx bxl-twitter' ></i></a>
-                    <a href=""><i className='bx bxl-instagram' ></i></a>
-                    <a href=""><i className='bx bxl-linkedin' ></i></a>
+                    <a href="@"><i className='bx bxl-facebook'></i></a>
+                    <a href="@"><i className='bx bxl-twitter' ></i></a>
+                    <a href="@"><i className='bx bxl-instagram' ></i></a>
+                    <a href="@"><i className='bx bxl-linkedin' ></i></a>
                 </div>
                 <div className="btn-container">
-                    <a href="#" className="btn">Read more</a>
+                    <a href="@" className="btn">Read more</a>
                 </div>
         </div>
     </div>
