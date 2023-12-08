@@ -18,13 +18,13 @@ const Home=()=>{
              voluptates nostrum sed neque iusto!
         </p>
         <div className="home-icon">
-                <a href=""><i class='bx bxl-facebook'></i></a>
-                <a href=""><i class='bx bxl-twitter' ></i></a>
-                <a href=""><i class='bx bxl-instagram' ></i></a>
-                <a href=""><i class='bx bxl-linkedin' ></i></a>
+                <a href="@"><i class='bx bxl-facebook'></i></a>
+                <a href="@"><i class='bx bxl-twitter' ></i></a>
+                <a href="@"><i class='bx bxl-instagram' ></i></a>
+                <a href="@"><i class='bx bxl-linkedin' ></i></a>
         </div>
         <div className="btn-container">
-            <a href="" className="btn" >Download CV</a>
+            <a href="@" className="btn" >Download CV</a>
         </div>
 
     </div>
