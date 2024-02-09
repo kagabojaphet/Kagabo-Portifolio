@@ -43,6 +43,9 @@ header{
                 cursor: pointer;
             }
         }
+        .menu{
+            display: none;
+        }
     }
 }
 @media (max-width: 1252px){
@@ -50,3 +53,79 @@ header{
         background: linear-gradient(-90deg,#031540 60%,white 40%);
     }
 }
+@media (max-width: 1080px){
+    Header{
+        background: linear-gradient(-90deg,#031540 60%,white 40%);
+        .logo{
+            font-size: $fontsize-md;
+            letter-spacing: .3rem;
+        }
+        .nav-links{
+            @include flexs(flex,center,space-between,2rem);
+            li{
+                a{
+                    font-size: $fontsize-md;
+                }
+            }
+        }
+    }
+
+}
+@media (max-width: 1000px){
+    Header{
+        background: linear-gradient(-90deg,#031540 70%,white 30%);
+    }
+}
+@media (max-width: 867px){
+    header{
+        @include flexs(flex,center,space-between,1rem);
+        background: white;
+        .nav-links{
+            @include flexs(flex,center,space-between,1rem);
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    font-size: $fontsize-md;
+                    color: $primary-color;  
+                    &.active,:hover,:active{
+                        color: $secondary-color;
+                    }
+                }
+            }
+            i{
+                font-size: $fontsize-lg;
+                color: $primary-color;
+                transition: .3s;
+                &:hover{
+                    color: $secondary-color;
+                    cursor: pointer;
+                }
+        }
+    }
+
+}}
+@media (max-width: 787px){
+    header{
+        @include flexs(flex,center,space-between,1rem);
+        background: white;
+        .nav-links{
+            @include flexs(flex,center,space-between,1rem);
+            li{
+                list-style-type: none;
+                a{
+                display: none;  
+                }
+            }
+             .user{
+              display: none;
+            } 
+            .menu{
+                display: block;
+                font-size: $fontsize-lg;
+                font-weight: $fontweight-lg;
+            }
+       
+    }
+
+}}

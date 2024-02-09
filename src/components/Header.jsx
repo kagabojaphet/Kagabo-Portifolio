@@ -10,10 +10,12 @@ const Header=()=>{
             <ul className="nav-links">
                 <li><a href="@" className="active">Home</a></li>
                 <li><a href="@">About me</a></li>
+                <li><a href="@">Portifolio</a></li>
                 <li><a href="@">Skills</a></li>
                 <li><a href="@">Blogs</a></li>
                 <li><a href="@">Contact</a></li>
-                <i class='bx bx-menu'></i>
+                <div className="user"><i class='bx bxs-user-circle'></i></div>
+                <div className="menu"><i class='bx bx-menu'></i></div>
             </ul>
         </header>
         </>
