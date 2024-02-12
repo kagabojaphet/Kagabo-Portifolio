@@ -36,10 +36,20 @@ const Contact=()=>{
                     <p>Send us a message!</p>
                     <form action="">
                       <div className="input-box">
+                        <label htmlFor="">FullName:</label>
+                        <input type="text" />
                       </div>
-                    </form>
-                    <form action="">
-
+                      <div className="input-box">
+                        <label htmlFor="">Email:</label>
+                        <input type="text" />
+                      </div>
+                      <div className="input-box">
+                        <label htmlFor="">Message:</label>
+                        <input type="text" />
+                      </div>
+                      <div className="submit-box">
+                        <button>Send</button>
+                      </div>
                     </form>
                 </div>
             </div>
