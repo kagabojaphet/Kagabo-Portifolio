@@ -197,14 +197,35 @@
             .media-container{
               
               .media{
-              
+              i{
+                font-size: $fontsize-lg;
+              }
+              p{
+                font-size: $fontsize-x-md;
+              }
               }
             }
         }
       }
       .contact-right{
         width: 500px;
-        background: red;
+        .contact-form{
+          form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            p{
+              font-size: 1.8rem;
+            }
+            .input-box{
+              label{
+                font-size: $fontsize-x-md;
+              }
+            }
+          }
+        }
       }
     }
         }
