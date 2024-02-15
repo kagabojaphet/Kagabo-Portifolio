@@ -33,8 +33,9 @@ const Contact=()=>{
             <div className="contact-right">
                 <h2>MY CONTACT</h2>
                 <div className="contact-form">
-                    <p>Send us a message!</p>
+                    
                     <form action="">
+                    <p>Send us a Message!</p>
                       <div className="input-box">
                         <label htmlFor="">FullName:</label>
                         <input type="text" />
@@ -45,7 +46,7 @@ const Contact=()=>{
                       </div>
                       <div className="input-box">
                         <label htmlFor="">Message:</label>
-                        <input type="text" />
+                        <textarea name="" id="" cols="20" rows="3"></textarea>
                       </div>
                       <div className="submit-box">
                         <button>Send</button>

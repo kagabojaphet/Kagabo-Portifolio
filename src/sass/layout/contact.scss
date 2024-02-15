@@ -66,19 +66,55 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 300px;
-            background: $ternary-color;
+            height: 100 auto;
+            padding: .5rem 0;
+           
+            
             p{
                 color: $primary-color;
+                padding-bottom: 2rem;
                 font-size: $fontsize-x-md;
             }
             form{
-              background: red;
-              width: 500px;
-              height: 200px;
-              display: inline-block;
+              background: $ternary-color;
+              outline: 5px solid $ternary-color;
+              border: 5px solid $primary-color;
+              width: 300px;
+              height: 100%;
+              padding: 1rem 2rem;
+             
              .input-box{
-              
+              padding-left: 0;
+              display: flex;
+              justify-content: left;
+              flex-direction: column;
+              align-items:baseline ;
+              margin-bottom: 2rem;
+              label{
+               font-size: 1.2rem;
+               font-weight: 300;
+               color: $primary-color;
+              }
+              input{
+                padding: .5rem;
+                color: $primary-color;
+              }
+             }
+             .submit-box{
+              // margin-bottom: 1.2rem;
+              button{
+                padding: 1rem 2rem;
+                background: $primary-color;
+                color: $ternary-color;
+                border: none;
+                border-radius: 3px;
+                transition: .2s;
+                &:hover{
+                  cursor: pointer;
+                  background: $secondary-color;
+                  color: $primary-color;
+                }
+              }
              }
             }
            }
@@ -98,6 +134,18 @@
       background: linear-gradient(-90deg,#031540 70%,white 30%);
       .contact-left{
         width: 200px;
+        .contact-media{
+          .media-container{
+            
+            .media{
+              padding: 0;
+              gap: 0;
+
+
+            }
+          }
+        }
+        
       }
     }
   }
@@ -106,6 +154,18 @@
       background: linear-gradient(-90deg,#031540 70%,white 30%);
       .contact-left{
         width: 180px;
+        .contact-media{
+          .media-container{
+            
+            .media{
+              display: flex;
+              flex-direction: column;
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
       }
       .contact-right{
         width: 400px;
@@ -131,6 +191,16 @@
       .contact-left{
         width: 500px;
         text-align: center;
+        
+        .contact-media{
+          
+            .media-container{
+              
+              .media{
+              
+              }
+            }
+        }
       }
       .contact-right{
         width: 500px;
