@@ -8,11 +8,14 @@ const Skills=()=>{
         <div className="skills-container">
             <div className="skills-left">
             <h1>SKILLS</h1>
-                <div className="skills-image">
+            <div className="skills">
+            <div className="skills-image">
                 <Image src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?" alt="" >
                     </Image>
                     
                 </div>
+            </div>
+              
             </div>
             <div className="skills-right">
                 <h2>MY SKILLS</h2>

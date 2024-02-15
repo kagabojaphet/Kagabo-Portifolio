@@ -14,21 +14,28 @@
             color: $primary-color;
             padding-bottom: 2rem;
           }
-        .skills-image{
-            width: 100%;
-            height: 350px;
-            background-color: $primary-color;
-            border: 5px solid $ternary-color;
-            outline: 5px solid $primary-color;
-            img{
-                width: 100%;
-                height: 340px;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                object-fit: cover;
-            }
-        }
+.skills{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .skills-image{
+    width: 100%;
+    height: 350px;
+    background-color: $primary-color;
+    border: 5px solid $ternary-color;
+    outline: 5px solid $primary-color;
+    img{
+        width: 100%;
+        height: 340px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+}
+}
       }
       .skills-right{
         max-width: 600px;
