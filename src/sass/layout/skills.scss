@@ -54,7 +54,7 @@
             padding: 2rem 0;
         }
         .progress{
-            background-color: $ternary-color;
+
             width: 100%;
             height: 100%;
             display: flex;
@@ -64,6 +64,13 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                .circle{
+                  background:$ternary-color;
+                  border-radius: 50%;
+                }
+                h3{
+                  color: $ternary-color;
+                }
             }
         }
 }}

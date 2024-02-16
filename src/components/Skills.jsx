@@ -25,35 +25,35 @@ const Skills=()=>{
                      maxime perferendis itaque qui!</p>
                      <Space wrap className="progress">
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={95} className="circle"/>
                         <h3>HTML</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={80} className="circle"/>
                         <h3>CSS</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={75} className="circle"/>
                         <h3>JAVASCRIPT</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={65} className="circle"/>
                         <h3>PHP</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={65} className="circle"/>
                         <h3>MYSQL</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={70} className="circle"/>
                         <h3>MONGO DB</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={60} className="circle"/>
                         <h3>REACT</h3>
                         </div>
                         <div className="progress-card">
-                        <Progress type="circle" percent={95} />
+                        <Progress type="circle" percent={80} className="circle"/>
                         <h3>FIGMA</h3>
                         </div>
                      </Space>

@@ -104,15 +104,17 @@
               // margin-bottom: 1.2rem;
               button{
                 padding: 1rem 2rem;
-                background: $primary-color;
-                color: $ternary-color;
-                border: none;
+                background: $ternary-color;
+                color: $primary-color;
+                border: 2px solid $primary-color;
+                font-size: 1.5rem;
+                font-weight: $fontweight-x-lg;
                 border-radius: 3px;
                 transition: .2s;
                 &:hover{
                   cursor: pointer;
-                  background: $secondary-color;
-                  color: $primary-color;
+                  background: $primary-color;
+                  color: $ternary-color;
                 }
               }
              }

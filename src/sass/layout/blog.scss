@@ -74,10 +74,10 @@
                 border-radius: 5px;
                 text-align: center;
                 padding-bottom: 1rem;
-                box-shadow: 2px  2px 2px 1px rgb(201, 197, 197);
+                box-shadow: 1px  1px 2px 1px rgb(201, 197, 197);
                 &:hover{
                   box-shadow: none;
-                  outline: 3px solid $secondary-color;
+                  outline: 3px solid $primary-color;
                   cursor: pointer;
                 }
                 img{
@@ -123,15 +123,22 @@
                 }
                 h5{
                     font-size: 1rem;
-                    padding: .5rem .5rem;
+                    padding: .0rem .5rem;
+                    padding-bottom: 1rem;
                   
                 }
                 a{
                     text-decoration: none;
                     color: $primary-color;
-                    background-color: $secondary-color;
+                    background-color: $ternary-color;
                     padding: .4rem 2rem;
+                    border: 2px solid $primary-color;
                     border-radius: 5px;
+                    transition: .3s;
+                   &:hover{
+                    background: $primary-color;
+                    color: $ternary-color;
+                   }
                   
                 }
             }
