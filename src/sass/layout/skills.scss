@@ -43,6 +43,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
         h2{
             color: $ternary-color;
             font-size: $fontsize-x-lg;
@@ -50,7 +51,7 @@
         p{
             font-size: $fontsize-x-md;
             color: $ternary-color;
-            padding: 2rem;
+            padding: 2rem 0;
         }
         .progress{
             background-color: $ternary-color;

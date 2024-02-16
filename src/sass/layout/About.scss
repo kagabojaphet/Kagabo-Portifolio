@@ -41,10 +41,22 @@
       color: $ternary-color;
       font-size: $fontsize-x-lg;
      }
+    
+    .about{
+      width: 100%;
+      // background-color: aquamarine;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+ 
     p{
-        padding: 2rem 0;
+        padding-bottom: 2rem;
         font-size: $fontsize-x-md;
         color: $ternary-color;
+        
     }
     .home-icon{
       a{
@@ -78,7 +90,7 @@
         }
       }
     }
-  }
+  }}
 }
 @media (max-width: 1252px){
   .about-container{
