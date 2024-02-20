@@ -9,7 +9,7 @@ const Header=()=>{
             </div>
             <ul className="nav-links">
                 <li><a href="@" className="active">Home</a></li>
-                <li><a href="@">About me</a></li>
+                <li><a href="@">About</a></li>
                 <li><a href="@">Portifolio</a></li>
                 <li><a href="@">Skills</a></li>
                 <li><a href="@">Blogs</a></li>

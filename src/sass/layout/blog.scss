@@ -230,3 +230,79 @@
       }
     }
         }
+        @media (max-width: 636px){
+          .blogs-container{
+            .blogs-left{
+              // background: red;
+              height:490px;
+            }
+            .blogs-right{
+              p{
+                color: $primary-color;
+                font-size: 2rem;
+                // background: gray;
+                margin: 2rem 0; 
+              }
+              .blog-card{
+                // background: red;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .blog-news{
+                  
+                  width: 500px;
+                  height: 500px;
+                  .view{
+                    // background: #031540;
+                    height: auto;
+                    margin-bottom: 2rem;
+                    .like{
+                      // background: red;
+                      display: flex;
+                      justify-content: space-between;
+                      width: 200px;
+                      height: 50px;
+                      i{
+                        font-size: 2rem;
+                      }
+                    }
+                    .date{
+                      // background: blue;
+                      width: 200px;
+                      height: 50px;
+                      display: flex;
+                      justify-content: right;
+                      h5{
+                        font-size: 2rem;
+                        
+                      }
+                    }
+                    .title{
+                      // background: green;
+                      width: 200px;
+                      height: 50px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      h3{
+                        font-size: 2.5rem;
+                      }
+                    }
+                  }
+                  h5{
+                    font-size: 2rem;
+                  }
+                  a{
+                    padding: .7rem 2rem;
+                    font-size: 2rem;
+                    &:hover{
+                      background: $primary-color;
+                      color: $ternary-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
