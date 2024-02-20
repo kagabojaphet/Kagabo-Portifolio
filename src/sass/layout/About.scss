@@ -58,6 +58,8 @@
         
     }
     .home-icon{
+      display: flex;
+      flex-wrap:wrap;
       a{
         display: inline-block;
         text-decoration: none;
@@ -172,6 +174,10 @@
           }
           .about-right{
             padding: 0 13rem;
+            h2{
+              color: $primary-color;
+              padding-bottom: 2rem;
+            }
           }
         }
       }

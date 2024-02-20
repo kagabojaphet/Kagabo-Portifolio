@@ -20,7 +20,6 @@
 .blogs{
   width: 100%;
   height: 500px;
-  // background: red;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -50,7 +49,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        // background: red;
         h2{
           color: $ternary-color;
           font-size: $fontsize-x-lg;
@@ -73,7 +71,7 @@
                 background-color: azure;
                 border-radius: 5px;
                 text-align: center;
-                padding-bottom: 1rem;
+                padding: 0 0 2rem 0;
                 box-shadow: 1px  1px 2px 1px rgb(201, 197, 197);
                 &:hover{
                   box-shadow: none;
@@ -87,15 +85,13 @@
                     height: 70%;
                 }
                 .view{
-                  // background-color: red;
                   display: flex;
                   justify-content: space-between;
                   width: 100%;
                   gap: 1rem;
                   height: 16px;
-                  padding: 0rem .5rem;
+                  padding: 0rem .8rem .5rem .8rem;
                   .like{
-                    // background-color: aquamarine;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -106,16 +102,18 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    // background-color: rgb(96, 9, 109);
                     width: 100%;
                     height: 100%;
                   }
                   .date{
+                     width: 100%;
+                     height: 100%;
                     display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                    justify-content: right;
+                    text-align: right;
                     h5{
                       font-size: 8px;
+                     
                     }
                   }
               
@@ -123,8 +121,7 @@
                 }
                 h5{
                     font-size: 1rem;
-                    padding: .0rem .5rem;
-                    padding-bottom: 1rem;
+                    padding:0 1rem 1.4rem 1rem;
                   
                 }
                 a{
@@ -173,10 +170,8 @@
       .blogs-right{
         width: 400px;
         .blog-card{
-          // background-color: red;
           width: 600px;
           .blog-news{
-            // background-color: blue;
             
           }
         }
@@ -219,11 +214,34 @@
       .blogs-right{
         width: 500px;
         .blog-card{
-          // background: red;
           width: 700px;
           .blog-news{
             width: 300px;
             height: 300px;
+            .view{
+              height: 30px;
+              margin-bottom: 1rem;
+              .like{
+                font-size: 1.7rem;
+              }
+              .title{
+                font-size: 1.4rem;
+              }
+              .date{
+                font-size: 4rem;
+                
+                h5{
+                  font-size: 1.5rem;
+                }
+
+              }
+            }
+            h5{
+              font-size: 1.3rem;
+            }
+            a{
+              font-size: 1.3rem;
+            }
             
           }
         }
@@ -233,7 +251,6 @@
         @media (max-width: 636px){
           .blogs-container{
             .blogs-left{
-              // background: red;
               height:490px;
             }
             .blogs-right{
@@ -248,11 +265,10 @@
                 justify-content: center;
                 align-items: center;
                 .blog-news{
-                  
                   width: 500px;
                   height: 500px;
                   .view{
-                    height: auto;
+                    height: 35px;
                     margin-bottom: 2rem;
                     .like{
                       display: flex;
@@ -260,7 +276,7 @@
                       width: 200px;
                       height: 50px;
                       i{
-                        font-size: 2rem;
+                        font-size: 2.2rem;
                       }
                     }
                     .date{
@@ -269,7 +285,7 @@
                       display: flex;
                       justify-content: right;
                       h5{
-                        // font-size: 2rem;
+                        font-size: 1.6rem;
                         
                       }
                     }
@@ -280,16 +296,17 @@
                       justify-content: center;
                       align-items: center;
                       h3{
-                        // font-size: 2.5rem;
+                        font-size: 2.5rem;
                       }
                     }
                   }
                   h5{
-                    // font-size: 2rem;
+                    font-size: 1.8rem;
+                    padding-bottom: 2rem;
                   }
                   a{
+                    font-size: 2rem;
                     padding: .7rem 2rem;
-                    // font-size: 2rem;
                     &:hover{
                       background: $primary-color;
                       color: $ternary-color;
@@ -341,6 +358,37 @@
                 .blog-news{
                   width: 300px;
                   height: 400px;
+                  .view{
+                    height: 20px;
+                    margin-bottom: 1rem;
+                    .like{
+                      width: 100%;
+                      height: 100%;
+                      i{
+                        font-size: 1.4rem;
+                      }
+                    }
+                    .title{
+                      width: 100%;
+                      height: 100%;
+                      h3{
+                        font-size: 2rem;
+                      }
+                    }
+                    .date{
+                      width: 100%;
+                      height: 100%;
+                      h5{
+                        font-size: 1.4rem;
+                      }
+                    }
+                  }
+                  h5{
+                    font-size: 1.5rem;
+                  }
+                  a{
+                    font-size: 1.5rem;
+                  }
                 }
               }
             }
@@ -357,6 +405,20 @@
                 .blog-news{
                   width: 250px;
                   height: 300px;
+                  .view{
+                    margin-bottom: .8rem;
+                    .title{
+                      h3{
+                        font-size: 1.5rem;
+                      }
+                    }
+                  }
+                  h5{
+                    font-size: 1.1rem;
+                  }
+                  a{
+                    font-size: 1.2rem;
+                  }
                 }
               }
             }
