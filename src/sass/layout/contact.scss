@@ -231,3 +231,43 @@
       }
     }
         }
+        @media (max-width: 576px){
+          .contact-container{
+            .contact-left{
+              padding: 0 3rem;
+            }
+            .contact-right{
+              padding: 0 3rem;
+            }
+          }
+        }
+        @media (max-width: 482px){
+          .contact-container{
+            .contact-left{
+              padding: 0 6rem;
+            }
+            .contact-right{
+              padding: 0 6rem;
+            }
+          }
+        }
+        @media (max-width: 400px){
+          .contact-container{
+            .contact-left{
+              padding: 0 10rem;
+            }
+            .contact-right{
+              padding: 0 10rem;
+            }
+          }
+        }
+        @media (max-width: 326px){
+          .contact-container{
+            .contact-left{
+              padding: 0 13rem;
+            }
+            .contact-right{
+              padding: 0 13rem;
+            }
+          }
+        }

@@ -240,11 +240,9 @@
               p{
                 color: $primary-color;
                 font-size: 2rem;
-                // background: gray;
                 margin: 2rem 0; 
               }
               .blog-card{
-                // background: red;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -254,11 +252,9 @@
                   width: 500px;
                   height: 500px;
                   .view{
-                    // background: #031540;
                     height: auto;
                     margin-bottom: 2rem;
                     .like{
-                      // background: red;
                       display: flex;
                       justify-content: space-between;
                       width: 200px;
@@ -268,34 +264,32 @@
                       }
                     }
                     .date{
-                      // background: blue;
                       width: 200px;
                       height: 50px;
                       display: flex;
                       justify-content: right;
                       h5{
-                        font-size: 2rem;
+                        // font-size: 2rem;
                         
                       }
                     }
                     .title{
-                      // background: green;
                       width: 200px;
                       height: 50px;
                       display: flex;
                       justify-content: center;
                       align-items: center;
                       h3{
-                        font-size: 2.5rem;
+                        // font-size: 2.5rem;
                       }
                     }
                   }
                   h5{
-                    font-size: 2rem;
+                    // font-size: 2rem;
                   }
                   a{
                     padding: .7rem 2rem;
-                    font-size: 2rem;
+                    // font-size: 2rem;
                     &:hover{
                       background: $primary-color;
                       color: $ternary-color;
@@ -303,6 +297,78 @@
                   }
                 }
               }
+            }
+          }
+        }
+        @media (max-width: 576px){
+          .blogs-container{
+            .blogs-left{
+              padding: 0 3rem;
+            }
+            .blogs-right{
+              padding: 0 5rem;
+              .blog-card{
+                .blog-news{
+                  width: 400px;
+                }
+              }
+            }
+          }
+        }
+        @media (max-width: 482px){
+          .blogs-container{
+            .blogs-left{
+              padding: 0 6rem;
+            }
+            .blogs-right{
+              padding: 0 10rem;
+              .blog-card{
+                .blog-news{
+                  width: 390px;
+                }
+              }
+            }
+          }
+        }
+        @media (max-width: 400px){
+          .blogs-container{
+            .blogs-left{
+              padding: 0 10rem;
+            }
+            .blogs-right{
+              padding: 0 13rem;
+              .blog-card{
+                .blog-news{
+                  width: 300px;
+                  height: 400px;
+                }
+              }
+            }
+          }
+        }
+        @media (max-width: 326px){
+          .blogs-container{
+            .blogs-left{
+              padding: 0 13rem;
+            }
+            .blogs-right{
+              padding: 0 15rem;
+              .blog-card{
+                .blog-news{
+                  width: 250px;
+                  height: 300px;
+                }
+              }
+            }
+          }
+        }
+        @media (max-width: 226px){
+          .blogs-container{
+            .blogs-left{
+              padding: 0 18rem;
+            }
+            .blogs-right{
+              padding: 0 20rem;
             }
           }
         }

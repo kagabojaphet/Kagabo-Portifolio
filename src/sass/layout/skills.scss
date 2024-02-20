@@ -133,9 +133,58 @@
         text-align: center;
       }
       .skills-right{
-        // background: red;
         width: 550px;
        
       }
     }
+        }
+        @media (max-width: 576px){
+          .skills-container{
+           .skills-left{
+            padding: 0 3rem;
+           }
+           .skills-right{
+            padding: 0 5rem;
+           }
+          }
+        }
+        @media (max-width: 482px){
+          .skills-container{
+            .skills-left{
+              padding: 0 6rem;
+            }
+            .skills-right{
+              padding: 0 10rem;
+            }
+           }
+        }
+        @media (max-width: 400px){
+          .skills-container{
+            .skills-left{
+              padding: 0 10rem;
+            }
+            .skills-right{
+              padding: 0 13rem;
+            }
+           }
+        }
+        @media (max-width: 326px){
+          .skills-container{
+            .skills-left{
+              padding: 0 15rem;
+            }
+            .skills-right{
+              padding: 0 17rem;
+            }
+           }
+        }
+        @media (max-width: 226px){
+          .skills-container{
+            .skills-left{
+              padding: 0 18rem;
+            }
+            .skills-right{
+              padding: 0 20rem;
+            }
+           }
         }
