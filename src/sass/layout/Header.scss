@@ -16,6 +16,11 @@ header{
         &:hover{
             transform: translate(3px,-3px);
         }
+        i{
+            font-size: 4rem;
+            color: $primary-color;
+            display: none
+        }
 
     }
     .nav-links{
@@ -43,9 +48,13 @@ header{
                 cursor: pointer;
             }
         }
-        .menu{
-            display: none;
-        }
+    
+    }
+    .menu{
+        display: none;
+        font-size: $fontsize-lg;
+        color: $primary-color;
+        font-weight: $fontweight-lg;
     }
 }
 @media (max-width: 1252px){
@@ -106,26 +115,32 @@ header{
 
 }}
 @media (max-width: 787px){
-    header{
-        @include flexs(flex,center,space-between,1rem);
-        background: white;
+    Header{
+        .logo{}
+        position: fixed;
         .nav-links{
-            @include flexs(flex,center,space-between,1rem);
+            display: flex;
+            flex-direction: column;
+            padding: 4rem 0;
+            background: $primary-color;
+            position:fixed;
+            top: 9rem;
+            left: 0;
+            width:100%;
+            height: 900px;
             li{
-                list-style-type: none;
                 a{
-                display: none;  
+                    color:$ternary-color;
+                    font-size: $fontsize-lg;
                 }
             }
-             .user{
-              display: none;
-            } 
-            .menu{
-                display: block;
-                font-size: $fontsize-lg;
-                font-weight: $fontweight-lg;
+            i{
+                color: $ternary-color;
+                font-size: 6rem;
             }
-       
+        }
+        .menu{
+            display: block;
+        }
     }
-
-}}
+}
