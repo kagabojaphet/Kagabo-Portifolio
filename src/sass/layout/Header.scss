@@ -17,7 +17,7 @@ header{
             transform: translate(3px,-3px);
         }
         i{
-            font-size: 4rem;
+            font-size: 6rem;
             color: $primary-color;
             display: none
         }
@@ -119,16 +119,8 @@ header{
         .logo{}
         position: fixed;
         .nav-links{
-            display: flex;
-            flex-direction: column;
-            padding: 4rem 0;
-            background: $primary-color;
-            position:fixed;
-            top: 9rem;
-            left: 0;
-            width:100%;
-            height: 900px;
-
+            display: none;
+                                                                                                        
             li{
                 a{
                     color:$ternary-color;
@@ -142,6 +134,52 @@ header{
         }
         .menu{
             display: block;
+        }
+    }
+}
+
+header{
+    .nav-links-cliked{
+        background-color: $primary-color;
+        position: fixed;
+        top: 8rem;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-size: $fontsize-lg;
+                color: $ternary-color;
+                transition: .4s;
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+        }
+        .user{
+            i{
+                font-size: 6rem;
+                color: $ternary-color;
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+
+        }
+        
+    }
+}
+@media (min-width: 787px){
+    header{
+        .nav-links-cliked{
+            display: none;
         }
     }
 }
