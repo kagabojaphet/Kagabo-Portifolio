@@ -16,11 +16,6 @@ header{
         &:hover{
             transform: translate(3px,-3px);
         }
-        i{
-            font-size: 6rem;
-            color: $primary-color;
-            display: none
-        }
 
     }
     .nav-links{
@@ -52,7 +47,7 @@ header{
     }
     .menu{
         display: none;
-        font-size: $fontsize-lg;
+        font-size: 6rem;
         color: $primary-color;
         font-weight: $fontweight-lg;
     }
@@ -142,7 +137,7 @@ header{
     .nav-links-cliked{
         background-color: $primary-color;
         position: fixed;
-        top: 8rem;
+        top: 12rem;
         height: 100%;
         width: 100%;
         left: 0;
