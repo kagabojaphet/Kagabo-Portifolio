@@ -6,12 +6,14 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Blogs from "../components/Blog";
 import Contact from "../components/Contact";
+import Portifolio from "../components/Portifolio";
 const Welcome=()=>{
     return(
         <>
         <Header/>
         <Home/>
         <About/>
+        <Portifolio/>
         <Skills/>
         <Blogs/>
         <Contact/>
