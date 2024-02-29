@@ -175,3 +175,11 @@ header{
         }
     }
 }
+@media (max-width: 482px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 2rem 2rem;
+    }
+}

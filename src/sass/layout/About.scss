@@ -55,7 +55,9 @@
         padding-bottom: 2rem;
         font-size: $fontsize-x-md;
         color: $ternary-color;
-        
+        @media (max-width: 226px){
+          color: $primary-color;
+        }
     }
     .home-icon{
       display: flex;
@@ -197,7 +199,7 @@
             padding: 0 18rem;
           }
           .about-right{
-            padding: 0 20rem;
+            padding: 0 19rem;
           }
         }
       }

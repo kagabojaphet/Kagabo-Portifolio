@@ -17,8 +17,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 3rem;
-        height: auto;
+
     }
     
     
@@ -42,12 +41,33 @@
         }
         @media (max-width: 787px){
             width: 500px;
-            text-align: center;
+        }
+        @media (max-width: 576px){
+            width: 450px;
+        }
+        @media (max-width: 482px){
+            width: 380px;
+        }
+        @media (max-width: 400px){
+            width: 300px;
+        }
+        @media (max-width: 326px){
+            width: 250px;
+        }
+        @media (max-width: 226px){
+            width: 160px;
         }
         h1{
             color: $primary-color;
             font-size: $fontsize-lg;
             padding-bottom: 2rem;
+            @media (max-width: 787px){
+                text-align: center;
+            }
+            @media (max-width: 226px){
+                display: flex;
+                justify-content: center;
+            }
         }
         .port-image{
             width: 100%;
@@ -70,13 +90,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media (max-width: 787px){
+            width: 500px;
+            height: auto;
+        }
         h2{
             color: $ternary-color;
             font-size: $fontsize-x-lg;
-        }
-        @media (max-width: 608px){
-            width: 100%;
-            height: 900px;
+            @media (max-width: 787px){
+                padding-bottom: 2rem;
+                color: $primary-color;
+            }
         }
         .port-right-cards{
             width: 100%;
@@ -102,11 +126,8 @@
                 max-width: 400px;
             }
             @media (max-width: 787px){
-                max-width: 600px;
-            }
-            @media (max-width: 608px){
-                height: 100%;
-                width: 100%;
+                max-width: 500px;
+                height: auto;
                 display: flex;
                 flex-direction: column;
             }
@@ -131,12 +152,28 @@
                     height: 170px;
                 }
                 @media (max-width: 787px){
-                    width: 180px;
-                    height:200px;
+                    width: 500px;
+                    height: 500px;
                 }
-                @media (max-width: 608px){
+                @media (max-width: 576px){
+                    width: 450px;
+                    height: 450px;
+                }
+                @media (max-width: 482px){
+                    width: 380px;
+                    height: 380px;
+                }
+                @media (max-width: 400px){
                     width: 300px;
-                    height: 200px;
+                    height: 300px;
+                }
+                @media (max-width: 326px){
+                    width: 250px;
+                    height: 250px;
+                }
+                @media (max-width: 226px){
+                    width: 160px;
+                    height: 160px;
                 }
                 &:hover{
                     cursor: pointer;
@@ -174,12 +211,38 @@
                         height: 160px;
                     }
                     @media (max-width: 787px){
-                        width: 170px;
-                        height: 190px;
+                        width: 490px;
+                        height: 490px;
+                    }
+                    @media (max-width: 576px){
+                        width: 440px;
+                        height: 440px;
+                    }
+                    @media (max-width: 482px){
+                        width: 370px;
+                        height: 370px;
+                    }
+                    @media (max-width: 400px){
+                        width: 290px;
+                        height: 290px;
+                    }
+                    @media (max-width: 326px){
+                        width: 240px;
+                        height: 240px;
+                    }
+                    @media (max-width: 226px){
+                        width: 150px;
+                        height: 150px;
                     }
                     p{
                         font-size: $fontsize-x-md;
                         color: $primary-color;
+                        @media (max-width: 787px){
+                            font-size: $fontsize-x-lg;
+                        }
+                        @media (max-width: 226px){
+                            font-size: $fontsize-x-md;
+                        }
                     }
                     a{
                         padding: 1rem 3rem;
@@ -189,6 +252,14 @@
                         color: $primary-color;
                         text-decoration: none;
                         background: $ternary-color;
+                        @media (max-width: 787px){
+                            padding: 2rem 4rem;
+                            font-size: 2rem;
+                        }
+                        @media (max-width: 226px){
+                            padding: 1rem 3rem;
+                            font-size: 1.3rem;
+                        }
                     }
 
                 }
