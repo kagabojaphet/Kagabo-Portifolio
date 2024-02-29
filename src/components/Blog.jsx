@@ -1,5 +1,9 @@
 import React from "react";
 import { Carousel } from 'antd';
+import kjeff from "../assests/gigi.jpg";
+import kajeff from "../assests/k.japhet.jpg";
+import k_jeff from "../assests/kagabo.png";
+import kjeph from "../assests/uu-r.png";
 
 const Blogs=()=>{
     return(
@@ -12,16 +16,16 @@ const Blogs=()=>{
                     <Carousel autoplay className="image">
     <div>
   
-      <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?" alt="" />
+      <img src={k_jeff}alt="" />
     </div>
     <div>
-      <img src="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?" alt="" />
+      <img src={kajeff} alt="" />
     </div>
     <div>
-      <img src="https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?" alt="" />
+      <img src={kjeff} alt="" />
     </div>
     <div>
-      <img src="https://images.pexels.com/photos/1181275/pexels-photo-1181275.jpeg?" alt="" />
+      <img src={kjeph} alt="" />
     </div>
   </Carousel>
                 </div>

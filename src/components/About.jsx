@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from 'antd';
-
+import kag from "../assests/kagabo.png";
 const About=()=>{
  return(
     <>
@@ -8,7 +8,7 @@ const About=()=>{
         <div className="about-left">
         <h1>ABOUT</h1>
             <div className="about-image">
-            <Image src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?" alt="" >
+            <Image className="image" src={kag}alt="" >
                     </Image>
             </div>
         </div>

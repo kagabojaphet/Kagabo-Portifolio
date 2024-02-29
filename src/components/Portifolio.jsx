@@ -1,6 +1,8 @@
 import React from "react";
 import { Image } from 'antd';
+import jeff from "../assests/k.japhet.jpg"
 import git from "../assests/git.png";
+
 
 const Portifolio =()=>{
     return(
@@ -9,7 +11,7 @@ const Portifolio =()=>{
             <div className="port-left">
             <h1>PORTIFOLIO</h1>
             <div className="port-image">
-            <Image className="image" src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?" alt="" >
+            <Image className="image" src={jeff}alt="" >
             </Image>
             </div>
             </div>

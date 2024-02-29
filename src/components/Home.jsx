@@ -1,11 +1,12 @@
 import React from "react";
+import kagabo from "../assests/IMG_20240229_165500.jpg";
 
 const Home=()=>{
     return (
         <>
         <div className="home-container">
         <div className="image">
-        <img src="" alt="" />
+        <img src={kagabo} alt="" />
     </div>
     <div className="home-content">
         <h1>I'm K.JAPHET</h1>

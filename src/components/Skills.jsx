@@ -1,6 +1,7 @@
 import React from "react";
 import {Progress,Space} from "antd";
 import { Image } from 'antd';
+import kagabo from "../assests/uu-r.png";
 
 const Skills=()=>{
     return(
@@ -10,7 +11,7 @@ const Skills=()=>{
             <h1>SKILLS</h1>
             <div className="skills">
             <div className="skills-image">
-                <Image src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?" alt="" >
+                <Image src={kagabo} alt="" >
                     </Image>
                     
                 </div>
