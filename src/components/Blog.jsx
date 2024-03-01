@@ -34,9 +34,9 @@ const Blogs=()=>{
             </div>
             <div className="blogs-right">
                 <h2>MY BLOGS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusamus ipsa error possimus 
-                    dolore totam enim amet, aperiam sunt praesentium quis. Doloremque recusandae excepturi 
-                    atque minima repellendus? Iusto, possimus ducimus!</p>
+                <p>
+                  Follow my activities
+                </p>
                     <div className="blog-card">
                     <div className="blog-news">
                             <img src='https://images.pexels.com/photos/21627/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' alt="" />

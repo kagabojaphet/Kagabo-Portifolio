@@ -20,7 +20,11 @@ const Skills=()=>{
             </div>
             <div className="skills-right">
                 <h2>MY SKILLS</h2>
-                <p>I have many skills in Software Development.firstly I studied in Highschool, Highschool 
+                <p>I have skills in Software Development. firstly I studied in Highschool, in 
+                    Highschool studied Html,Css,JS,Mysqli,Php,C and C++. Then I continued my journey at 
+                    Nyabiheke Alight Coding School, in Nyabiheke Alight Coding School I studied 
+                    Js,Html5,Css,Scss,React,Figma,Nodejs,PostmanApi, and MongoDB, 
+                    so look my progress for each course below.
                     
                      </p>
                      <Space wrap className="progress">

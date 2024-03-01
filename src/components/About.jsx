@@ -17,13 +17,16 @@ const About=()=>{
             <div className="about">            
                 <p>
                     My name is Iradukunda Japhet but you can call me Kagabo Japhet(K.Japhet),
-                    I have 22 years old and I am Backend & Fronted Developer. So
+                    I have 22 years old and I am Backend & Fronted Developer.
                     I was born in Rwanda form Gatsibo Ditrict, I have Advanced 
                     Diploma in Software Development(SOD) Where I got in Highschool 
                     but I continued study at Nyabiheke Alight Coding School(Coding Training).
                     I have dreams to be a Senior Developer and I have short term goal & long term goal.
                     My Short term goal is to get a job reputed company and, My long term goal is to achieve
-                    a good position where can build my career and help organisation. My is hobby  
+                    a good position where can build my career and help organisation. My strength is hardworking,
+                    time managment, and solving problem. My weakness is I don't believe people easly. 
+                    My hobby is reading books,
+                    researching,listerning musics and football.  
 
                 </p>
                 <div className="home-icon">
