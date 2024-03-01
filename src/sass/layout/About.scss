@@ -41,6 +41,9 @@
     h2{
       color: $ternary-color;
       font-size: $fontsize-x-lg;
+      @media (max-width: 787px){
+        padding-bottom: 2rem;
+      }
      }
     
     .about{
