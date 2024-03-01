@@ -35,7 +35,7 @@ const Contact=()=>{
                 <div className="contact-form">
                     
                     <form action="">
-                    <p>Send us a Message!</p>
+                    <p>Send me a Message!</p>
                       <div className="input-box">
                         <label htmlFor="">FullName:</label>
                         <input type="text" required  placeholder="FullName"/>

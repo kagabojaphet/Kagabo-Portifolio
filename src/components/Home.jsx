@@ -11,12 +11,10 @@ const Home=()=>{
     <div className="home-content">
         <h1>I'm K.JAPHET</h1>
         <h3>Fronted &<br/>Backend Developer</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur 
-            adipisicing elit. Sequi in esse nisi
-             necessitatibus alias fugit nihil 
-             explicabo fugiat cupiditate quae
-              non quasi rem sint blanditiis,
-             voluptates nostrum sed neque iusto!
+        <p>Hello My Dear, Welcome to My website and I am very excited to meet you.
+            So you can send me anything that are want to tell me even support, 
+            idea,feedback and problem. keep with me as long as you would like talk to me
+            please follow me with social media below Enjoy.
         </p>
         <div className="home-icon">
                 <a href="@"><i class='bx bxl-facebook'></i></a> 

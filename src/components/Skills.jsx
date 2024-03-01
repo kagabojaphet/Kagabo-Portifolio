@@ -20,10 +20,9 @@ const Skills=()=>{
             </div>
             <div className="skills-right">
                 <h2>MY SKILLS</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti sit hic quod  
-                    quisquam aliquam tempore similique nemo tenetur necessitatibus. 
-                    Quasi dolore quaerat error incidunt temporibus fugiat
-                     maxime perferendis itaque qui!</p>
+                <p>I have many skills in Software Development.firstly I studied in Highschool, Highschool 
+                    
+                     </p>
                      <Space wrap className="progress">
                         <div className="progress-card">
                         <Progress type="circle" percent={95} className="circle"/>

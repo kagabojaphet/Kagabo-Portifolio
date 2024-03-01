@@ -15,14 +15,17 @@ const About=()=>{
         <div className="about-right">
             <h2>ABOUT ME</h2>
             <div className="about">            
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Molestiae odit nobis commodi quaerat ut iure 
-                tempore nemo accusantium, dolorem ad id eius placeat optio 
-                eligendi quibusdam, numquam fugit totam eos
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Molestiae odit nobis commodi quaerat ut iure 
-                tempore nemo accusantium, dolorem ad id eius placeat optio 
-                eligendi quibusdam, numquam fugit?</p>
+                <p>
+                    My name is Iradukunda Japhet but you can call me Kagabo Japhet(K.Japhet),
+                    I have 22 years old and I am Backend & Fronted Developer. So
+                    I was born in Rwanda form Gatsibo Ditrict, I have Advanced 
+                    Diploma in Software Development(SOD) Where I got in Highschool 
+                    but I continued study at Nyabiheke Alight Coding School(Coding Training).
+                    I have dreams to be a Senior Developer and I have short term goal & long term goal.
+                    My Short term goal is to get a job reputed company and, My long term goal is to achieve
+                    a good position where can build my career and help organisation. My is hobby  
+
+                </p>
                 <div className="home-icon">
                     <a href="@"><i className='bx bxl-facebook'></i></a>
                     <a href="@"><i className='bx bxl-twitter' ></i></a>
