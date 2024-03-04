@@ -1,13 +1,13 @@
 import React from "react";
-import "../sass/main.scss";
 import Header from "../components/Header";
-import Home from "../components/Home";
-const Welcome=()=>{
+import Contact from "../components/Contact";
+
+const Contac=()=>{
     return(
         <>
         <Header/>
-        <Home/>
+        <Contact/>
         </>
     )
 }
-export default Welcome
+export default Contac

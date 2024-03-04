@@ -1,13 +1,13 @@
 import React from "react";
-import "../sass/main.scss";
 import Header from "../components/Header";
-import Home from "../components/Home";
-const Welcome=()=>{
+import Portifolio from "../components/Portifolio";
+
+const Portifoli=()=>{
     return(
         <>
         <Header/>
-        <Home/>
+        <Portifolio/>
         </>
     )
 }
-export default Welcome
+export default Portifoli

@@ -1,13 +1,15 @@
 import React from "react";
-import "../sass/main.scss";
 import Header from "../components/Header";
+import About from "../components/About";
 import Home from "../components/Home";
-const Welcome=()=>{
-    return(
+
+
+const Abouts=()=>{
+    return (
         <>
         <Header/>
-        <Home/>
+        <About/>
         </>
     )
 }
-export default Welcome
+export default Abouts
