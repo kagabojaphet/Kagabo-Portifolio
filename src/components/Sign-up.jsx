@@ -30,7 +30,7 @@ const Signup=()=>{
                     <label htmlFor="">ConfirmPassword</label>
                     <input type="text" required/>
                 </div>
-                <p>Already have an account? <a href="">Login</a></p>
+                <p>Already have an account? <a href="/Login">Login</a></p>
                 <div className="btn">
                     <button>Signup</button>
                 </div>

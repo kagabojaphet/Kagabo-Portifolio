@@ -1,13 +1,13 @@
 .form-container{
     background: $primary-color;
-    height: auto;
+    height: 100vh;
     width: 100%;
     padding: 2rem 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     form{
-        padding: 4rem 0;
+        padding: 1rem 0;
         background: $ternary-color;
         width: 500px;
         display: flex;
@@ -20,7 +20,7 @@
     h4{
         color: $primary-color;
         font-size: $fontsize-md;
-        padding-bottom: 4rem;
+        padding-bottom: 2rem;
     }
     .input-box{
         display: flex;

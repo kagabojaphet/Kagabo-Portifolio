@@ -14,7 +14,7 @@ const Login=()=>{
                     <label htmlFor="">Password</label>
                     <input type="text" required/>
                 </div>
-                <p>if you don't have an account? <a href="">Login</a></p>
+                <p>if you don't have an account? <a href="/Signup">Signup</a></p>
                 <div className="btn">
                     <button>Login</button>
                 </div>

@@ -24,7 +24,7 @@ const Header=()=>{
                 <li><a href="/Skills">Skills</a></li>
                 <li><a href="/Blogs">Blogs</a></li>
                 <li><a href="/Contact">Contact</a></li>
-                <div className="user"><i class='bx bxs-user-circle'></i></div>
+                <div className="user"><a href="/Login"><i class='bx bxs-user-circle'></i></a></div>
                 
             </ul>
 
