@@ -3,10 +3,10 @@ header{
     background: linear-gradient(-90deg,#031540 70%,white 30%);
     padding: 2rem 6rem;
     width: 100%;
-    z-index: 9999;
+    position: fixed;
+    z-index: 999;
+    right: 0;
     top: 0;
-    left: 0;
-    position: sticky;
     .logo{
         font-size: $fontsize-x-lg;
         letter-spacing: .5rem;
