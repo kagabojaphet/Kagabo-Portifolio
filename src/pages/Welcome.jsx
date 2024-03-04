@@ -7,6 +7,8 @@ import Skills from "../components/Skills";
 import Blogs from "../components/Blog";
 import Contact from "../components/Contact";
 import Portifolio from "../components/Portifolio";
+import Signup from "../components/Sign-up";
+import Login from "../components/Login";
 const Welcome=()=>{
     return(
         <>
@@ -17,6 +19,8 @@ const Welcome=()=>{
         <Skills/>
         <Blogs/>
         <Contact/>
+        <Signup/>
+        <Login/>
         </>
     )
 }

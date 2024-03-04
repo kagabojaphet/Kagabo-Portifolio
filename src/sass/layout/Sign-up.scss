@@ -1,0 +1,63 @@
+.form-container{
+    background: $primary-color;
+    height: auto;
+    width: 100%;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        padding: 4rem 0;
+        background: $ternary-color;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        border: 4px solid $primary-color;
+        outline: 4px solid $ternary-color;
+    h4{
+        color: $primary-color;
+        font-size: $fontsize-md;
+        padding-bottom: 4rem;
+    }
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        label{
+            color: $primary-color;
+            font-size: 1.2rem;
+        }
+        input{
+            padding: .4rem 0;
+        }
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            padding: 1rem 2rem;
+            font-size: $fontweight-x-md;
+            color: $primary-color;
+            font-weight: $fontweight-lg;
+            border: 2px solid $primary-color;
+            border-radius: 5px;
+            transition: .5s;
+            &:hover{
+                background: $primary-color;
+                color: $ternary-color;
+            }
+        }
+    }
+    p{
+        color: $primary-color;
+        a{
+            color: $secondary-color;
+            font-weight: $fontweight-lg;
+        }
+    }
+    }
+}

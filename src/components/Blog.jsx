@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from 'antd';
-import kjeff from "../assests/gigi.jpg";
+import kjeff from "../assests/kj.jpg";
 import kajeff from "../assests/k.japhet.jpg";
 import k_jeff from "../assests/kagabo.png";
 import kjeph from "../assests/uu-r.png";
