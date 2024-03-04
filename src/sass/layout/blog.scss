@@ -3,17 +3,20 @@
     justify-content: space-between;
     background: linear-gradient(-90deg,#031540 70%,white 30%);
     width: 100%;
-    height:auto;
+    height:100vh;
     padding: 2rem 6rem;
 
     .blogs-left{
-        
         width: 300px;
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         h1{
             font-size: $fontsize-lg;
             color: $primary-color;
             padding-bottom: 2rem;
+            display: none;
           }
 
 .blogs{
