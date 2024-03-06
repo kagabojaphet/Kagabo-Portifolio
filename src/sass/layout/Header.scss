@@ -132,56 +132,56 @@ header{
     }
 }
 
-// header{
-//     .nav-links-cliked{
-//         background-color: $primary-color;
-//         position: fixed;
-//         top: 9rem;
-//         height: 100%;
-//         width: 100%;
-//         left: 0;
-//         display: flex;
-//         align-items: center;
-//         flex-direction: column;
-//         justify-content: center;
-//         gap: 2rem;
-//         li{
-//             list-style-type: none;
-//             a{
-//                 text-decoration: none;
-//                 font-size: $fontsize-x-lg;
-//                 color: $ternary-color;
-//                 transition: .4s;
-//                 &:hover{
-//                     color: $secondary-color;
-//                 }
-//             }
-//         }
-//         .user{
-//             i{
-//                 font-size: 6rem;
-//                 color: $ternary-color;
-//                 &:hover{
-//                     color: $secondary-color;
-//                 }
-//             }
+header{
+    .nav-links-cliked{
+        background-color: $primary-color;
+        position: fixed;
+        top: 9rem;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-size: $fontsize-x-lg;
+                color: $ternary-color;
+                transition: .4s;
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+        }
+        .user{
+            i{
+                font-size: 6rem;
+                color: $ternary-color;
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
 
-//         }
+        }
         
-//     }
-// }
-// @media (min-width: 787px){
-//     header{
-//         .nav-links-cliked{
-//             display: none;
-//         }
-//     }
-// }
-// @media (max-width: 482px){
-//     header{
-//         display: flex;
-//         justify-content: space-between;
-//         gap: 1rem;
-//         padding: 2rem 2rem;
-//     }
-// }
+    }
+}
+@media (min-width: 787px){
+    header{
+        .nav-links-cliked{
+            display: none;
+        }
+    }
+}
+@media (max-width: 482px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 2rem 2rem;
+    }
+}

@@ -18,7 +18,7 @@ const Header=()=>{
                 <h1>K.JAPHET</h1>                                                                                            
             </div>
             <ul className={clicked ? "nav-links-cliked" :"nav-links"}>
-                <li><a href="/Welcome" className="active">Home</a></li>
+                <li><a href="/Home" className="active">Home</a></li>
                 <li><a href="/About">About</a></li>
                 <li><a href="/Portifolio">Portifolio</a></li>
                 <li><a href="/Skills">Skills</a></li>

@@ -7,6 +7,7 @@ import Contac from './pages/Contact';
 import Portifoli from './pages/Portifolio';
 import Login from './components/Login';
 import Signup from './components/Sign-up';
+import Hom from './pages/Home';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
          <Router>
           <Routes>
             <Route path='/Welcome' element={<Welcome/>}></Route>
+            <Route path='/Home' element={<Hom/>}></Route>
             <Route path='/About' element={<About/>}></Route>
             <Route path='/Blogs' element={<Blog/>}></Route>
             <Route path='/Contact' element={<Contac/>}></Route>
